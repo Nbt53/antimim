@@ -1,5 +1,5 @@
 const express = require('express');
-const { renderHome, renderTestimonials, renderReport } = require('../controllers/controllers');
+const { renderHome, renderTestimonials, renderReport, renderDestroy } = require('../controllers/controllers');
 const router = express.Router();
 
 router.route('/')
@@ -12,5 +12,7 @@ router.route('/testimonials')
 router.route('/report')
     .get(renderReport)
 
+router.route('/destroy')
+    .get(renderDestroy)
 
 module.exports = router;     

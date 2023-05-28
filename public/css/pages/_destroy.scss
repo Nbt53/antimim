@@ -1,0 +1,33 @@
+.destroy {
+    text-align: center;
+
+    &__text {
+        padding: 0 10rem;
+        font-size: 1.5rem;
+    }
+
+    &__logo {
+        display: inline-block;
+        width: 30rem;
+        margin: 0 auto;
+        box-shadow: $shadow-2;
+        margin-bottom: 5rem;
+    }
+    p{
+        margin-bottom: 1rem;
+    }
+}
+
+.heading-primary {
+    font-size: 3rem;
+    margin: 2rem auto;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    .must {
+        color: red;
+        font-size: 3.3rem;
+        letter-spacing: 2px;
+    }
+}

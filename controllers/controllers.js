@@ -9,3 +9,7 @@ module.exports.renderTestimonials = (req, res) =>{
 module.exports.renderReport = (req, res) =>{
     res.render('report')
 }
+
+module.exports.renderDestroy = (req, res) =>{
+    res.render('destroy')
+}

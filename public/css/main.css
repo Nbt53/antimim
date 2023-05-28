@@ -171,4 +171,35 @@ html {
   font-size: 1.2rem;
   padding: 2rem;
   margin: 2rem;
+}
+
+.destroy {
+  text-align: center;
+}
+.destroy__text {
+  padding: 0 10rem;
+  font-size: 1.5rem;
+}
+.destroy__logo {
+  display: inline-block;
+  width: 30rem;
+  margin: 0 auto;
+  box-shadow: 0 0px 45px rgba(0, 128, 0, 0.915);
+  margin-bottom: 5rem;
+}
+.destroy p {
+  margin-bottom: 1rem;
+}
+
+.heading-primary {
+  font-size: 3rem;
+  margin: 2rem auto;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.heading-primary .must {
+  color: red;
+  font-size: 3.3rem;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=main.css.map */
