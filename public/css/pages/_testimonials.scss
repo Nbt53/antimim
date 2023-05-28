@@ -1,0 +1,11 @@
+.testimonials {
+    padding: $padding-more;
+    text-align: center;
+
+    &__title {
+        font-size: 2.4rem;
+        text-shadow: $shadow-1;
+        letter-spacing: 2px;
+        margin-bottom: 4rem;
+    }
+}

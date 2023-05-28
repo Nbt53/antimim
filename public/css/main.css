@@ -1,0 +1,174 @@
+/* universal reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+.boiler-report {
+  background-color: #fbfbfb;
+}
+
+.scare {
+  font-size: 1.8rem;
+  text-shadow: 0 8px 5px rgba(0, 128, 0, 0.915);
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+.scare {
+  position: relative;
+  width: 75rem;
+  height: 40rem;
+  background-image: url("/img/lurk.png");
+  background-position: left bottom;
+  background-repeat: none;
+  margin: 2rem auto;
+  letter-spacing: 1.5px;
+}
+.scare-text {
+  position: absolute;
+  margin: 1rem;
+}
+.scare-1 {
+  top: 1rem;
+  left: 1rem;
+}
+.scare-2 {
+  top: 10rem;
+  left: 30rem;
+}
+.scare-3 {
+  top: 20rem;
+  left: 5rem;
+}
+.scare-4 {
+  bottom: 2rem;
+  left: 20rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.1215686275);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  padding: 0 2rem;
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.nav-link:link, .nav-link:visited {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+}
+
+.card {
+  display: flex;
+  width: 90%;
+  height: 30rem;
+  justify-content: space-around;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.card-section {
+  width: 45%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: 0 8px 5px rgba(0, 128, 0, 0.915);
+  background-color: rgba(255, 0, 0, 0.1215686275);
+}
+.card__img {
+  height: 10rem;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+.card__name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 0 8px 5px rgba(0, 128, 0, 0.915);
+  margin-bottom: 1rem;
+}
+.card__text {
+  font-size: 1.2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__label {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.form__input {
+  width: 40rem;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding: 1rem;
+  width: 15rem;
+}
+
+.home-about {
+  font-size: 1.4rem;
+  margin: 4rem;
+  text-shadow: 0 8px 5px rgba(0, 128, 0, 0.915);
+}
+
+.testimonials {
+  padding: 2rem;
+  text-align: center;
+}
+.testimonials__title {
+  font-size: 2.4rem;
+  text-shadow: 0 8px 5px rgba(0, 128, 0, 0.915);
+  letter-spacing: 2px;
+  margin-bottom: 4rem;
+}
+
+.report {
+  color: black;
+  text-align: center;
+}
+.report__logo {
+  height: 25rem;
+}
+
+.form__description {
+  font-size: 1.2rem;
+  padding: 2rem;
+  margin: 2rem;
+}/*# sourceMappingURL=main.css.map */
