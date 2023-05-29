@@ -1,3 +1,7 @@
+if (process.env.NODE_ENV !== "production") {
+  require('dotenv').config();
+}
+
 const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
@@ -9,17 +13,17 @@ const methodOverride = require('method-override');
 //variables for set up
 const secret = '4684a58s4d78f54g1h2ddd58h'
 const port = 3000
-const dbUrl = 'mongodb://127.0.0.1:27017/template' 
-//set up local mongoose store
+// const dbUrl = 'mongodb://127.0.0.1:27017/template' 
+// //set up local mongoose store
 
-mongoose.connect(dbUrl)
-    .then(() => {
-        console.log('database Connected')
-    })
-    .catch(err => {
-        console.log('Mongo connection error')
-        console.log(err)
-    })
+// mongoose.connect(dbUrl)
+//     .then(() => {
+//         console.log('database Connected')
+//     })
+//     .catch(err => {
+//         console.log('Mongo connection error')
+//         console.log(err)
+//     })
 
   // to parse objects
 app.use(express.urlencoded({ extended: true }));

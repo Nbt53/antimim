@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="videos__body">
+    <style>
+        .videos__body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+    <div id="player"></div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        function onYouTubeIframeAPIReady() {
+            const player = new YT.Player('player', {
+                videoId: '3FON9Z3PcMY',
+            });
+        }
+    </script>
+</body>
+
+</html>

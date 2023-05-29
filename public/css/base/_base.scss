@@ -6,16 +6,21 @@
 }
 
 html {
-
     font-size: 62.5%;
+    color: $color-text-light;
 }
 
 body {
     background-color: black;
-    color: white;
     box-sizing: border-box;
 }
 
-.boiler-report{
+.boiler-report {
     background-color: #fbfbfb;
+}
+
+@media(max-width:800px) {
+    html {
+        font-size: 52.3%;
+    }
 }

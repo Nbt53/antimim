@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-text-light;
+    color: $color-text-dark;
+    padding: 1rem 5rem;
+
+    &__section {
+        width: 100%;
+        display: flex;
+        
+        
+    }
+
+    &__socials {
+        display: flex;
+        width: 25%;
+        margin-bottom: 1rem;
+
+        &-item {
+            list-style: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+    }
+
+    &__link:link,
+    &__link:visited {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+    ion-icon {
+        align-self: center;
+        fill: $color-text-dark;
+        width: 3rem;
+        height: 2rem;
+        margin-bottom: 1rem;
+    }
+}

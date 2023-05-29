@@ -5,7 +5,7 @@
     height: 5rem;
     width: 100%;
     padding: 0 2rem;
-    background-color: rgba(red, .4);
+    // background-color: rgba(red, .4);
 
     &-link:link,
     &-link:visited {
@@ -13,5 +13,14 @@
         color: inherit;
         font-size: 1.4rem;
         margin: 0 1rem;
+        @media(max-width:850px){    
+            font-size: 1.2rem;
+        }
+        @media(max-width:650px){    
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
     }
 }
+
