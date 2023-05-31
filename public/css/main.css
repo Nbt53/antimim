@@ -113,6 +113,7 @@ html {
   }
 }
 .nav {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -137,6 +138,25 @@ html {
     text-transform: uppercase;
     font-weight: 500;
   }
+}
+.nav__button {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 1rem;
+  right: 2rem;
+  background-color: #e9ecef;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  padding: 0.5rem;
+}
+.nav__button-img {
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto;
 }
 
 .card {
@@ -267,12 +287,10 @@ html {
   text-decoration: none;
   color: inherit;
 }
-.footer ion-icon {
-  align-self: center;
+.footer i {
+  font-size: 1.4rem;
   fill: #495057;
-  width: 3rem;
-  height: 2rem;
-  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 
 .home-about {

@@ -8,8 +8,8 @@
     &__section {
         width: 100%;
         display: flex;
-        
-        
+
+
     }
 
     &__socials {
@@ -32,11 +32,9 @@
     }
 
 
-    ion-icon {
-        align-self: center;
+    i {
+        font-size: 1.4rem;
         fill: $color-text-dark;
-        width: 3rem;
-        height: 2rem;
-        margin-bottom: 1rem;
+        margin-right: 1rem;
     }
 }
